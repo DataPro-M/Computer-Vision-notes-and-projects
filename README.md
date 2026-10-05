@@ -1,44 +1,84 @@
 # Computer Vision Notes and Projects
 
-my journey through:
+A structured learning journey through modern Computer Vision, from image processing fundamentals to object detection, segmentation, generative models, and Vision Transformers.
 
-> Modern Computer Vision™
+This repository serves as:
 
-This repository contains:
-
-- Detailed lesson notes
-- Concept summaries
-- Code exercises
-- Jupyter notebooks
-- Experiments
-- Mini-projects
-- Personal insights and revisions
-
-The goal is to build a long-term reference for Computer Vision while creating a public portfolio of practical work.
+- 📚 A personal knowledge base
+- 💻 A collection of implementations and experiments
+- 🚀 A portfolio demonstrating continuous learning in Computer Vision
+- 📖 A future reference for interviews, projects, and real-world applications
 
 ---
 
-## Learning Objectives
+## Learning Roadmap
 
-- Build a strong foundation in Computer Vision
-- Understand Neural Networks and Deep Learning
-- Learn PyTorch for Computer Vision tasks
-- Implement Convolutional Neural Networks (CNNs)
-- Apply Transfer Learning
-- Explore Object Detection techniques
-- Explore Image Segmentation
-- Develop complete Computer Vision projects
+### Module 1: Foundations (Image Processing & OpenCV)
+
+- Pixels and image representation
+- Color spaces (RGB, HSV, Grayscale)
+- Geometric transformations
+- Convolution kernels
+- Image filtering
+- OpenCV fundamentals
+
+### Module 2: Deep Learning & CNNs
+
+- Neural networks
+- Activation functions
+- Backpropagation
+- Gradient descent
+- Convolutional Neural Networks (CNNs)
+- Feature extraction
+
+### Module 3: Advanced CNN Architectures
+
+- VGG
+- ResNet
+- Inception
+- EfficientNet
+- Transfer Learning
+
+### Module 4: Object Detection
+
+- R-CNN
+- Faster R-CNN
+- SSD
+- YOLO
+- DETR
+
+### Module 5: Image Segmentation
+
+- U-Net
+- Mask R-CNN
+- Segment Anything Model (SAM)
+- Semantic Segmentation
+- Instance Segmentation
+
+### Module 6: Generative Models & Vision Transformers
+
+- Variational Autoencoders (VAE)
+- Generative Adversarial Networks (GANs)
+- Vision Transformers (ViT)
+- Self-Attention
+- Image Embeddings
 
 ---
 
 ## Repository Structure
 
 ```text
-course-notes/   -> Notes and summaries
-notebooks/      -> Jupyter notebooks
-exercises/      -> Practice implementations
-projects/       -> Independent projects
-assets/         -> Images, plots, visual outputs
+Computer-Vision-notes-and-projects/
+
+├── README.md
+├── LEARNING_LOG.md
+│
+├── 01-foundations-image-processing-opencv/
+├── 02-deep-learning-cnns/
+├── 03-advanced-cnn-architectures/
+├── 04-object-detection/
+├── 05-image-segmentation/
+└── 06-generative-models-and-vision-transformers/
 ```
 
 ---
@@ -47,16 +87,12 @@ assets/         -> Images, plots, visual outputs
 
 | Module | Status |
 |----------|----------|
-| Introduction | ⏳ |
-| Python Fundamentals | ⏳ |
-| Neural Networks | ⏳ |
-| PyTorch Basics | ⏳ |
-| CNN Fundamentals | ⏳ |
-| Image Classification | ⏳ |
-| Transfer Learning | ⏳ |
+| Foundations (Image Processing & OpenCV) | ⏳ |
+| Deep Learning & CNNs | ⏳ |
+| Advanced CNN Architectures | ⏳ |
 | Object Detection | ⏳ |
 | Image Segmentation | ⏳ |
-| Generative Models | ⏳ |
+| Generative Models & Vision Transformers | ⏳ |
 
 Legend:
 
@@ -66,43 +102,26 @@ Legend:
 
 ---
 
-## Study Workflow
+## Goals
 
-For every lesson I will:
+- Build strong Computer Vision fundamentals.
+- Understand modern Deep Learning architectures.
+- Develop practical Computer Vision applications.
+- Maintain high-quality technical notes.
+- Create portfolio-ready Computer Vision projects.
 
-1. Create notes.
-2. Save code examples.
-3. Record key takeaways.
-4. Store visual outputs.
-5. Commit progress to GitHub.
+---
 
-Example:
+## Learning Log
+
+Progress is tracked in:
 
 ```text
-course-notes/
-└── 05-cnn-fundamentals/
-    └── lesson-03-convolutions/
-        ├── notes.md
-        ├── code.py
-        └── outputs/
+LEARNING_LOG.md
 ```
 
 ---
 
-## Featured Projects
+## License
 
-Projects will be added as the course progresses.
-
-- [ ] Image Classification
-- [ ] Transfer Learning Application
-- [ ] Object Detection Project
-- [ ] Semantic Segmentation Project
-
----
-
-## Why This Repository Exists
-
-This repository serves both as:
-
-- A personal knowledge base for future review.
-- A public portfolio demonstrating consistent learning and practical implementation of Computer Vision concepts.
+This repository is intended for educational and portfolio purposes.
